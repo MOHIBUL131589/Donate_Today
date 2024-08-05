@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+.inter-fonts {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* Shared Styles */
+body{
+  margin: 0px;
+}
+.display-flex{
+  display: flex;
+}
+
+/* Banner Header Styles */
+.banner{
+  height: 900px;
+  background: url(../images/donation1.jpg) no-repeat;
+  background-size: 100%;
+  margin: 0px;
+  
+}
+.banner::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  height: 50%;
+  background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  pointer-events: none;
+
+}
+.banner-header{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 830px;
+  height: 700px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  text-align: center;
+  
+}
+.banner-title{
+  font-size: 4.5rem;
+  margin: 2px;
+}
+.banner-subtitle{
+  font-size: 1.2rem;
+  color: rgb(195, 192, 192);
+}
+.btn-primary{
+  padding: 20px 35px;
+  background-color: #FF5959;
+  color: #FFFFFF;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+}
+
+/* Donation styles */
+
+.donation-header{
+  width: 690px;
+  height:240px;
+  text-align: center;
+  margin: 80px auto;
+}
+.donation-amounts{
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.donation-amount{
+  width: 135px;
+  height: 123px;
+  border: none;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  background-color: #efebeb;
+  color: gray;
+}
+.komola{
+  background-color: #FFEEEE;
+  border: 2px solid #FF5959;
+  color: #FF5959;
+}
+
+.donation-ranges{
+  text-align: center;
+  margin-bottom: 30px;
+}
+hr{
+  width: 850px;
+  color: #DADADA;
+  margin-bottom: 40px;
+}
