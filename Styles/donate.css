@@ -104,3 +104,65 @@ hr{
   border: 0.5px solid #DADADA;
   margin-bottom: 40px;
 }
+
+/* Donate plan styles */
+.donate-plans-all{
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.donate-plans, .donate-plans-one, .donate-plans-two{
+  width: 360px;
+  height: 352px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f9da62a;
+}
+.donate-plans-one{
+  background-color: #ff595923;
+}
+.donate-plans-two{
+  background-color: rgba(250, 250, 210, 0.375);
+}
+
+.donate-plan{
+  margin-top:80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+.donate-plan-header{
+  width: 315px;
+  height: 153px;
+  margin-top: 40px;
+
+}
+
+/* Donation Dependent */
+.donation-dependents{
+  width: 1140px;
+  height: 477px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  
+}
+.donation-dependent{
+  width: 493px;
+  height: 374px;
+}
+.donation-dependent-title{
+  font-size: 3rem;
+  color: #121212;
+  font-weight: bold;
+}
+
+.image{
+  width: 456px;
+  height: 477;
+}
+
+.row-reverse{
+  flex-direction: row-reverse;
+}
